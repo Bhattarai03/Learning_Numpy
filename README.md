@@ -7,4 +7,5 @@ and math functions to help beginners master data manipulation efficiently.
 - Indexing & slicing
 - Broadcasting & vectorization
 - Mathematical & statistical functions
+- Shape Manipulation
 - Mini-projects & exercises
