@@ -8,7 +8,7 @@ print(np.isnan(arr))
 newaar=np.nan_to_num(arr,nan=3)
 print(newaar)
 
-arr2=np.array([1,2,3,np.inf,6])
+arr2=np.array([1,2,3,np.inf,6,np.inf])
 print(np.isinf(arr2))
 newaar2=np.nan_to_num(arr2, posinf=1000 ,neginf=-1000 )
 print(newaar2)

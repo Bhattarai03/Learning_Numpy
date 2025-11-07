@@ -14,7 +14,7 @@ ar2=np.array([1,2,3,4,5])
 result=ar1 + ar2
 print(result)
 
-# Adding element from two or more array of different 
+# Adding element from two or more array of different shape
 ar3=np.array([[1,2,3,4,5],[6,7,8,9,10]])
 ar4=np.array([1,2,3,4,5])
 print(ar3 + ar4)
