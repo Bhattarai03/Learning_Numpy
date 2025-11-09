@@ -11,13 +11,15 @@ print(reshape_)
 # Flattem()-> it does not affect the original copy
 array2=np.array([[1,2,3],[3,4,5],[6,7,8]])
 print(array2)
-r = array2.ravel()
-f = array2.flatten()
+r = array1.ravel()
+f = array1.flatten()
+r[0]=12
 
-r[0] = 100
-print(array2)   # Will change, because r shares memory
-f[0] = 999
-print(array2)   # Won’t change, because f is a copy
+print(array1)   # Will change, because r shares memory
+f[0]=23
+
+print(array1)   # Won’t change, because f is a copy
+
 
 
 
